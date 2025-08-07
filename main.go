@@ -5,12 +5,13 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"jsonserver/config"
 	"log"
 	"os"
 	"os/signal"
 	"sync"
 	"syscall"
+
+	"github.com/tercnem/jsonserver/config"
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/gofiber/fiber/v2"
