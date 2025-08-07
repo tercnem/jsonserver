@@ -1,6 +1,6 @@
 install
 ```
-go install https://github.com/tercnem/jsonserver
+go install github.com/tercnem/jsonserver@latest
 ```
 jalankan 
 ```
